@@ -2,7 +2,7 @@
 
 #### Description ####
 
-The ConnectWise UI can be quote bloated. These scripts are intended to perform quick tasks without having to be in the interface.  
+The ConnectWise UI is a bit bloated. These scripts are intended to perform quick tasks without having to be in the interface.  
 
 
 **Review each script and test it with your own Training account before trying them with your live data.** 
