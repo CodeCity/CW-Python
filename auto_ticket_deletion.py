@@ -1,3 +1,18 @@
+""" 
+ Author: Aaron Arlotti 
+ ConnectWise Python Script 
+
+ Delete tickets automatically. 
+ 
+ Deleted tickets are forwarded to a Gmail account. 
+ The script parses the Gmail and finds the ticket number,
+ checks the ticket if the status is Delete Ticket, and then 
+ Deletes or ignores the ticket. The email is then moved to 
+ the Trash
+ 
+""" 
+
+
 import imaplib
 import requests
 import json
