@@ -24,6 +24,7 @@ User accepts all responsibility.
 
 I have no IMAP access to the company server so I forward the emails to a Gmail account. 
 Once the emails are in the Gmail inbox, the script parses the subject lines of the emails. 
+
 	* Currently, the subject line is: Ticket (ticketnumber) has been deleted. 
 		* The subject is parsed and the ticket number is found. 
 		* The ticket is deleted. 
