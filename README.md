@@ -30,3 +30,7 @@ Once the emails are in the Gmail inbox, the script parses the subject lines of t
 		* If the ticket has any other status other than >Delete Ticket, it will not be removed. 
 	* The email is then moved to the Trash
 
+*[Capture a group of tickets](https://github.com/CodeCity/CW-Python/blob/master/capture_tickets.py)
+
+This script will connect to a service board, parse the tickets based on a keyword, then grab the ticket number and 
+schedule an engineer, and move the ticket to a different board. 
