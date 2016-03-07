@@ -134,8 +134,6 @@ class AssignTicket:
 
 	def update(ticket_number):
 
-		url = "https://connectwise.sandboxtech.com/v4_6_release/apis/3.0/"
-
 		board = "service/tickets/" + str(ticket_number)
 
 		payload = [
